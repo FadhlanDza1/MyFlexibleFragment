@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.DetailFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cat_vw"
+        android:text="@string/category_name"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cat_desc_vw"
+        android:text="@string/category_description"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_profile"
+        android:text="@string/to_profile"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_dialog"
+        android:text="@string/show_dialog"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+</LinearLayout>
